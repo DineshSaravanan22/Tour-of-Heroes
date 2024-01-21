@@ -1,0 +1,28 @@
+{
+  "restourant": [
+    {
+      "id": "1",
+      "fname": "dinesh",
+      "addres": "villivakkam",
+      "Gmail": "kyc0test.com"
+    },
+    {
+      "id": "3",
+      "fname": "akash",
+      "addres": "villivakkam",
+      "Gmail": "ssh0test.com"
+    },
+    {
+      "id": "4",
+      "fname": "vignesh",
+      "addres": "villicakkam",
+      "Gmail": "vignesha@gmail.com"
+    },
+    {
+      "id": "cd2f",
+      "fname": "dffg",
+      "addres": "fdgdfg",
+      "Gmail": "dfbbfgdfg"
+    }
+  ]
+}
