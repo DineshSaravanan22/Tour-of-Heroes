@@ -12,9 +12,9 @@ const routes: Routes = [
 {path:'add',
 component:AddRestoComponent
 },
-{path:'update',
+{path:'update/:id',
 component:UpdateRestoComponent},
-{path:'list',
+{path:'',
 component:ListRestoComponent
 },
 {path:'login',

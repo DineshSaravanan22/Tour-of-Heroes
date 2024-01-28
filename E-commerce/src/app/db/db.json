@@ -1,28 +1,22 @@
 {
   "restourant": [
     {
-      "id": "1",
-      "fname": "dinesh",
+      "fname": " Mr Dinesh",
       "addres": "villivakkam",
-      "Gmail": "kyc0test.com"
+      "Gmail": "dinesh@gmail",
+      "id": 1
     },
     {
-      "id": "3",
-      "fname": "akash",
+      "fname": "Mr Akash",
       "addres": "villivakkam",
-      "Gmail": "ssh0test.com"
+      "Gmail": "akash@gmail.com",
+      "id": 3
     },
     {
-      "id": "4",
-      "fname": "vignesh",
+      "fname": "Mr Vignesh",
       "addres": "villicakkam",
-      "Gmail": "vignesha@gmail.com"
-    },
-    {
-      "id": "cd2f",
-      "fname": "dffg",
-      "addres": "fdgdfg",
-      "Gmail": "dfbbfgdfg"
+      "Gmail": "vignesh@gmail.com",
+      "id": 4
     }
   ]
 }

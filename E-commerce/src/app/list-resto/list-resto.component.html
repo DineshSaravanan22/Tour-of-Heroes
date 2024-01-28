@@ -1,4 +1,6 @@
-
+<h1>
+  Restaurant List 
+</h1>
 <table class="table">
     <thead>
       <tr>
@@ -6,7 +8,7 @@
         <th scope="col">Fname</th>
         <th scope="col">Addres</th>
         <th scope="col">Gmail</th>
-        <th scope="col">Delete</th>
+        <th scope="col">Operation</th>
       </tr>
     </thead>
     <tbody>
@@ -15,7 +17,11 @@
         <td>{{item.fname}}</td>
         <td>{{item.addres}}</td>
         <td>{{item.Gmail}}</td>
-        <td><i (click)="deleteResto(item.id)" class="fa fa-trash" style="font-size:30px;color:red;"></i></td>
+        <td>
+          <i (click)="deleteResto(item.id)" class="fa fa-trash" style="font-size:30px;color:red;">
+          </i>
+          <a routerLink="/update/{{item.id}}"><i class="fa fa-edit" style="font-size:30px;color:blue;"></i></a>
+        </td>
       </tr>      
     </tbody>
   </table>

@@ -5,3 +5,10 @@ body{
     margin-left: 5%;
     margin-right: 5%;
 }
+footer{
+    padding: 10px;
+    background-color: #eddfdf;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

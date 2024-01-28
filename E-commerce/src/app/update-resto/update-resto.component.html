@@ -1,1 +1,22 @@
-<p>update-resto works!</p>
+<h1>Edit Restaurant</h1>
+<!-- <div  *ngIf="showAlert"  class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>Your Data is Saved !!!</strong> 
+  <button  (click)="closeAlert()"type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div> -->
+<form [formGroup]="EditformData" (ngSubmit)="editResto(EditformData.value)" >
+    <div class="form-group">
+      <label for="exampleInputEmail1">Fname</label>
+      <input type="text" class="form-control" formControlName="fname"  placeholder="Enter Fname" [(ngModel)]="editdata.fname">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1"> address</label>
+        <input type="text" class="form-control"  formControlName="addres" placeholder="Enter address" [(ngModel)]="editdata.addres">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email </label>
+        <input type="email" class="form-control"  formControlName="Gmail" placeholder="Enter email" [(ngModel)]="editdata.Gmail">
+      </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+  </form>

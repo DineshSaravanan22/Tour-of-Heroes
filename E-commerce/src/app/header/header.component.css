@@ -43,3 +43,11 @@
     height: 39px;
     border-left: none;
 }
+.boxes{
+    background-color: yellow;
+    color: black;
+}
+.boxes1{
+    width: 50%;
+    height: 200px;
+}
